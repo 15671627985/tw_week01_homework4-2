@@ -1,0 +1,97 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 2%;
+
+  width: 60%;
+  height: 20%;
+  background-color: gray;
+}
+
+.iconfont.icon-back {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: aliceblue;
+  font-size: 46px;
+}
+
+.header-name {
+  position: absolute;
+  top: 40% ;
+  left: 25%;
+  color: aliceblue;
+  font-size: 30px;
+  
+}
+.iconfont.icon-gouwuche1 {
+   position: absolute;
+   top: 40%;
+   left: 91%;
+   color: aliceblue;
+   font-size: 46px;
+ }
+
+ .banner {
+   position: absolute;
+   margin-left: 20%;
+   margin-top: 11.5%;
+   width: 60%;
+   height: 40%;
+ }
+
+ .tags {
+   position: absolute;
+   margin-left: 20%;
+   margin-top: 32%;
+   width: 60%;
+ }
+ .tags-one,.tags-two,.tags-three {
+   width: 250px;
+   height: 70px;
+   border: solid gray;
+   display: inline-block;
+   text-align: center;
+   padding-top: 1.5%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 40px;
+   border-radius: 50px;
+ }
+ .tags-two, .tags-three {
+   margin-left: 8%;
+ }
+
+ .line-two {
+   margin-top: 2%;
+ }
+
+ .tags-four,.tags-five,.tags-six{
+  width: 250px;
+  height: 70px;
+  border: solid  gray;
+  display: inline-block;
+  text-align: center;
+  padding-top: 1.5%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  border-radius: 50px;
+ }
+ .tags-five, .tags-six {
+   margin-left: 8%;
+ }
+ 
+ .tags-one:hover,
+ .tags-two:hover,
+ .tags-three:hover,
+ .tags-four:hover,
+ .tags-five:hover,
+ .tags-six:hover {
+  background-color: red;
+}
+ 
+ 
