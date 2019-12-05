@@ -1,88 +1,94 @@
-body {
-  width: 100%;
-  height: 100%;
-}
-
 .header {
   position: absolute;
-  margin-left: 20%;
-  margin-top: 2%;
+  top: 0;
+  left: 0;
+   
+  width: 100%;
+  height: 12%;
+  background-color: #32394A;
 
-  width: 60%;
-  height: 20%;
-  background-color: gray;
+  display: flex; 
+  align-items: center;
 }
 
-.iconfont.icon-back {
-  position: absolute;
-  top: 40%;
-  left: 10%;
-  color: aliceblue;
-  font-size: 46px;
+ .iconfont.icon-back {
+   margin-left: 8%;
+   color: aliceblue;
+   font-size: 36px;
 }
 
 .header-name {
-  position: absolute;
-  top: 40% ;
-  left: 25%;
+  margin-left: 10%;
   color: aliceblue;
   font-size: 30px;
-  
 }
-.iconfont.icon-gouwuche1 {
-   position: absolute;
-   top: 40%;
-   left: 91%;
-   color: aliceblue;
-   font-size: 46px;
- }
 
+.iconfont.icon-gouwuche1 {
+  margin-left: 23%;
+   color: aliceblue;
+   font-size: 36px;
+ }
+ 
  .banner {
    position: absolute;
-   margin-left: 20%;
-   margin-top: 11.5%;
-   width: 60%;
-   height: 40%;
+   left: 0;
+   right: 0;
+   top: 12%;
+   width: 100%;
+   height: 30%;
  }
-
- .tags {
+ .circle-one,
+ .circle-two,
+ .circle-three {
    position: absolute;
-   margin-left: 20%;
-   margin-top: 32%;
-   width: 60%;
+   top: 38%;
+   left: 72%;
+   width: 20px;
+   height: 20px;
+   border-radius: 20px;
+   background-color: #35403F;
  }
- .tags-one,.tags-two,.tags-three {
-   width: 250px;
-   height: 70px;
-   border: solid gray;
-   display: inline-block;
-   text-align: center;
-   padding-top: 1.5%;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 40px;
-   border-radius: 50px;
+ .circle-two {
+   left: 80.5%;
+   background-color:#364141;
  }
- .tags-two, .tags-three {
-   margin-left: 8%;
+ .circle-three {
+   left: 89%;
+   background-color: #B6C0C3;
+ }
+ 
+ .row-one, .row-two {
+   position: absolute;
+   left: 0;
+   top: 42%;
+   width: 100%;
+   height: 10%;
+   display: flex;
+   align-items: center;  /* 上下居中*/
+   justify-content: space-evenly; /* 间距相等*/
+  } 
+
+ .row-two {
+   top: 49%;
  }
 
- .line-two {
-   margin-top: 2%;
+ .tags-one, 
+ .tags-two, 
+ .tags-three,
+ .tags-four,
+ .tags-five,
+ .tags-six {
+   border: solid 1px #EEEEEE;
+   width: 30%;
+   height: 50%;
+   border-radius: 70px;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
-
- .tags-four,.tags-five,.tags-six{
-  width: 250px;
-  height: 70px;
-  border: solid  gray;
-  display: inline-block;
-  text-align: center;
-  padding-top: 1.5%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 40px;
-  border-radius: 50px;
- }
- .tags-five, .tags-six {
-   margin-left: 8%;
+ .tags-two {
+   background-color: #FF2D50;
  }
  
  .tags-one:hover,
@@ -94,4 +100,4 @@ body {
   background-color: red;
 }
  
- 
+  
